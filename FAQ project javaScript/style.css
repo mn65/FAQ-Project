@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #bdc6d3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.section{
+    position: relative;
+    top: 20%;
+}
+
+.section h1 {
+    font-family: 'Licorice', cursive;
+    font-size: 3.0rem;
+    letter-spacing: 4px;
+    color: goldenrod;
+    text-align: center;
+}
+
+.question{
+    margin-top: 60px;
+}
+
+.p{
+    background-color: #f1f1f1;
+    padding: 15px;
+    width: 40vw;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 18px #414141;
+    letter-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.p:hover{
+    box-shadow: 0 0 5px rgb(255, 14, 14), 0 0 30px rgb(255, 14, 14),0 0 40px rgb(255, 14, 14);
+}
+
+
+.btn{
+    float: right;
+    
+}
+
+.btn button{
+    padding: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.ans{
+    position: relative;
+    left: 0;
+    padding-left: 13px;
+    padding-top: 5px;
+}
+
+.ans1{
+    margin-top: 80px;
+    border-top: 1px solid #797979;
+}
+
+.ans2{
+    margin-top: 80px;
+    border-top: 1px solid #797979;
+}
+
+.ans3{
+    margin-top: 80px;
+    border-top: 1px solid #797979;
+}
+
+.resp-answer{
+    height: 200px;
+}
+
+.resp-answer-1{
+    opacity: 0;
+    display: none;
+}
